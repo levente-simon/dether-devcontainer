@@ -1,0 +1,39 @@
+{
+  "name": "dether.net DevContainer",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+	  "vscode": {
+		  "extensions": [
+			  "dbaeumer.vscode-eslint",
+			  "esbenp.prettier-vscode",
+			  "Vue.vscode-typescript-vue-plugin",
+			  "Gruntfuggly.todo-tree",
+			  "ms-graphql.vscode-graphql",
+			  "Prisma.prisma",
+			  "GitHub.copilot",
+			  "eamodio.gitlens",
+			  "Vue.volar",
+			  "Zignd.html-css-class-completion",
+			  "GraphQL.vscode-graphql",
+			  "ms-vsliveshare.vsliveshare",
+			  "mutantdino.resourcemonitor",
+			  "wakatime.vscode-wakatime"
+
+		  ],
+		  "settings": [
+			  {
+				  "files.autoSave": "onFocusChange"
+			  }
+		  ]
+	  }
+  },
+  "postCreateCommand": "pnpm install",
+  "remoteUser": "dether",
+  "forwardPorts": [
+    3000,
+    4200,
+    8000,
+    7687
+  ]
+}
+
