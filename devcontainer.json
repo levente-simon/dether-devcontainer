@@ -22,7 +22,7 @@
 		  ],
 		  "settings": {
 			  "files.autoSave": "onFocusChange",
-			  "workbench.colorTheme": "Dark+"
+			  "workbench.colorTheme": "Default Dark+"
 		  }
 	  }
   },
