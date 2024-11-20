@@ -20,12 +20,10 @@
 			  "wakatime.vscode-wakatime"
 
 		  ],
-		  "settings": [
-			  {
-				  "files.autoSave": "onFocusChange",
-				  "theme": "Default Dark+"
-			  }
-		  ]
+		  "settings": {
+			  "files.autoSave": "onFocusChange",
+			  "workbench.colorTheme": "Dark+"
+		  }
 	  }
   },
   "postCreateCommand": "echo pnpm install",
