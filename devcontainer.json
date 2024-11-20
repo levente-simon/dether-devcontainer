@@ -27,10 +27,11 @@
 		  ]
 	  }
   },
-  "postCreateCommand": "pnpm install",
+  "postCreateCommand": "echo pnpm install",
   "remoteUser": "dether",
   "forwardPorts": [
     3000,
+    3005,
     4200,
     8000,
     7687
