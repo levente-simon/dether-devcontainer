@@ -32,8 +32,8 @@ RUN echo Y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyz
 RUN cp /root/.zshrc /etc/skel/.zshrc && \
     sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting zsh-autosuggestions)/' /etc/skel/.zshrc
 
-RUN mkdir -p /etc/skel/.config && \
-    git clone https://github.com/github/copilot.vim.git /etc/skel/.config/nvim/pack/github/start/copilot.vim
+# RUN mkdir -p /etc/skel/.config && \
+#    git clone https://github.com/github/copilot.vim.git /etc/skel/.config/nvim/pack/github/start/copilot.vim
 
 # Copy tmux config for all users
 COPY tmux.conf /etc/skel/.tmux.conf
