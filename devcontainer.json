@@ -22,7 +22,8 @@
 		  ],
 		  "settings": [
 			  {
-				  "files.autoSave": "onFocusChange"
+				  "files.autoSave": "onFocusChange",
+				  "theme": "Default Dark+"
 			  }
 		  ]
 	  }
